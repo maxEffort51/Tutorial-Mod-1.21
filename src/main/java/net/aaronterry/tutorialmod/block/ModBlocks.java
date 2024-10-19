@@ -16,13 +16,13 @@ public class ModBlocks {
 
     public static final Block ALIVITE_ORE = registerBlock("alivite_ore",
             new Block(AbstractBlock.Settings.create()
-                    .strength(4f)
+                    .strength(3f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.STONE)));
 
     public static final Block ALIVITE_BLOCK = registerBlock("alivite_block",
             new Block(AbstractBlock.Settings.create()
-                    .strength(6f)
+                    .strength(4f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.STONE)));
 

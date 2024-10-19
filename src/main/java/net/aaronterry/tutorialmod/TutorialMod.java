@@ -1,6 +1,7 @@
 package net.aaronterry.tutorialmod;
 
 import net.aaronterry.tutorialmod.block.ModBlocks;
+import net.aaronterry.tutorialmod.item.ModItemGroups;
 import net.aaronterry.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +14,7 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2,
+  "group": "alivite_chunk",
+  "ingredient": {
+    "item": "tutorialmod:alivite_ore"
+  },
+  "result": {
+    "id": "tutorialmod:alivite_chunk"
+  }
+}
