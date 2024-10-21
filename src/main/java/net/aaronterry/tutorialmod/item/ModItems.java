@@ -1,6 +1,7 @@
 package net.aaronterry.tutorialmod.item;
 
 import net.aaronterry.tutorialmod.TutorialMod;
+import net.aaronterry.tutorialmod.item.custom.LivingWand;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -10,6 +11,8 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item ALIVITE_CHUNK = registerItem("alivite_chunk", new Item(new Item.Settings()));
+
+    public static final Item LIVING_WAND = registerItem("living_wand", new LivingWand(new Item.Settings().maxDamage(16)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);

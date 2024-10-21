@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.ALIVITE_CHUNK);
                         entries.add(ModBlocks.ALIVITE_ORE);
                         entries.add(ModBlocks.ALIVITE_BLOCK);
+                        entries.add(ModItems.LIVING_WAND);
                     })
                     .build()
     );

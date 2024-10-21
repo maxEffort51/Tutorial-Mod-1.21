@@ -1,6 +1,9 @@
 {
   "item.tutorialmod.alivite_chunk": "Alivite Chunk",
+  "item.tutorialmod.living_wand": "Living Wand",
+
   "block.tutorialmod.alivite_ore": "Alivite Ore Block",
   "block.tutorialmod.alivite_block": "Alivite Block",
+
   "itemgroup.tutorialmod.alivite_group": "Alivite Items"
 }
